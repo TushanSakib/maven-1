@@ -20,7 +20,7 @@ public class TestLogin {
 	 void setup() {
 		 WebDriverManager.chromedriver().setup();
 		 driver = new ChromeDriver();
-	     driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(4));
+	     driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(5));
 	 }
 	 @Test(dataProvider = "loginDataProvider")
 	    void testLogin(String email, String pwd) throws InterruptedException {
