@@ -1,69 +1,25 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="3" passed="3" failed="0" skipped="0">
+<testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2024-10-02T17:24:43 BDT" name="Default suite" finished-at="2024-10-02T17:25:00 BDT" duration-ms="16843">
+  <suite started-at="2024-10-02T22:06:49 BDT" name="Default suite" finished-at="2024-10-02T22:07:52 BDT" duration-ms="63209">
     <groups>
     </groups>
-    <test started-at="2024-10-02T17:24:43 BDT" name="Default test" finished-at="2024-10-02T17:25:00 BDT" duration-ms="16843">
-      <class name="selenium_1.TestLogin">
-        <test-method is-config="true" signature="setup()[pri:0, instance:selenium_1.TestLogin@68c9133c]" started-at="2024-10-02T17:24:43 BDT" name="setup" finished-at="2024-10-02T17:24:45 BDT" duration-ms="2659" status="PASS">
+    <test started-at="2024-10-02T22:06:49 BDT" name="Default test" finished-at="2024-10-02T22:07:52 BDT" duration-ms="63209">
+      <class name="testCases.TestExecute1">
+        <test-method is-config="true" signature="setup()[pri:0, instance:testCases.TestExecute1@548d708a]" started-at="2024-10-02T22:06:49 BDT" name="setup" finished-at="2024-10-02T22:06:57 BDT" duration-ms="8110" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method signature="testLogin(java.lang.String,java.lang.String)[pri:0, instance:selenium_1.TestLogin@68c9133c]" started-at="2024-10-02T17:24:45 BDT" name="testLogin" data-provider="loginDataProvider" finished-at="2024-10-02T17:24:52 BDT" duration-ms="6362" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[pavanol123@gmail.com]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[test@123]]>
-              </value>
-            </param>
-          </params>
+        <test-method signature="verify_account_registration()[pri:0, instance:testCases.TestExecute1@548d708a]" started-at="2024-10-02T22:06:57 BDT" name="verify_account_registration" finished-at="2024-10-02T22:07:51 BDT" duration-ms="54609" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- testLogin -->
-        <test-method signature="testLogin(java.lang.String,java.lang.String)[pri:0, instance:selenium_1.TestLogin@68c9133c]" started-at="2024-10-02T17:24:52 BDT" name="testLogin" data-provider="loginDataProvider" finished-at="2024-10-02T17:24:56 BDT" duration-ms="4158" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[johncanedy@gmail.com]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[test]]>
-              </value>
-            </param>
-          </params>
+        </test-method> <!-- verify_account_registration -->
+        <test-method is-config="true" signature="tarDown()[pri:0, instance:testCases.TestExecute1@548d708a]" started-at="2024-10-02T22:07:51 BDT" name="tarDown" finished-at="2024-10-02T22:07:52 BDT" duration-ms="417" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- testLogin -->
-        <test-method signature="testLogin(java.lang.String,java.lang.String)[pri:0, instance:selenium_1.TestLogin@68c9133c]" started-at="2024-10-02T17:24:56 BDT" name="testLogin" data-provider="loginDataProvider" finished-at="2024-10-02T17:24:59 BDT" duration-ms="3434" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[abc@gmail.com]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[test123]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- testLogin -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:selenium_1.TestLogin@68c9133c]" started-at="2024-10-02T17:24:59 BDT" name="tearDown" finished-at="2024-10-02T17:25:00 BDT" duration-ms="169" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- tearDown -->
-      </class> <!-- selenium_1.TestLogin -->
+        </test-method> <!-- tarDown -->
+      </class> <!-- testCases.TestExecute1 -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>
